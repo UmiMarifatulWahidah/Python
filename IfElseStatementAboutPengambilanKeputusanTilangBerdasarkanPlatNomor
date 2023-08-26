@@ -3,7 +3,7 @@
 print("Pengambilan Keputusan Tilang Berdasarkan Plat Nomor")
 
 date=int(input('masukkan tanggal: '))
-platnomor=int(input('masukkan plat nomor: '))
+platnomor=int(input('masukkan plat nomor (nomor saja tanpa huruf depan dan belakang): '))
 
 print("""\n Anda akan terkena tilang jika 
       1. Plat nomor ganjil di tanggal genap
