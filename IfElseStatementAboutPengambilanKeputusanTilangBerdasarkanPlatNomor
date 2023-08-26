@@ -1,0 +1,19 @@
+#If Else Statement
+
+print("Pengambilan Keputusan Tilang Berdasarkan Plat Nomor")
+
+date=int(input('masukkan tanggal: '))
+platnomor=int(input('masukkan plat nomor: '))
+
+print("""\n Anda akan terkena tilang jika 
+      1. Plat nomor ganjil di tanggal genap
+      2. Plat nomor genap di tanggal ganjil""")
+
+
+if ((date %2 ==1) and (platnomor %2 ==0)) or ((date %2 ==0) and (platnomor %2 ==1)) :
+    print ("""\nMOHON MAAF
+           Anda Ditilang""")
+
+else :
+    print ("""\nSELAMAT
+           Anda Tidak Terkena Tilang""")
